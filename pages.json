@@ -1,0 +1,38 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#2764DD",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "资讯",
+      "iconPath": "static/tabbar/information.png",
+      "selectedIconPath": "static/tabbar/information_select.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "题库",
+      "iconPath": "static/tabbar/itembank.png",
+      "selectedIconPath": "static/tabbar/itembank_select.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "static/tabbar/user.png",
+      "selectedIconPath": "static/tabbar/user_select.png"
+    }]
+  }
+}

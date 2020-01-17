@@ -1,0 +1,63 @@
+view,
+text {
+  box-sizing: border-box;
+  font-family: PingFangSC-Medium !important;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fw{
+  font-weight: 700;
+}
+
+.tblank {
+  color: #333;
+}
+
+.tgary {
+  color: #999;
+}
+
+.tblue {
+  color: #2764DD;
+}
+
+.tgold {
+  color: #FCD901;
+}
+
+.tred {
+  color: #F45834;
+}
+
+.tred2{
+  color: #E14420;
+}
+
+.tgreen{
+  color: #63DD27;
+}
+
+/* @font-face {
+  font-family: 'PingFangSCM1e1ecef5d021066';
+  src: url('//cdn.repository.webfont.com/webfonts/nomal/135270/47086/5e12da8af629d802080d937e.gif?r=126687498907');
+  src: url('//cdn.repository.webfont.com/webfonts/nomal/135270/47086/5e12da8af629d802080d937e.gif?r=126687498907?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/135270/47086/5e12da8af629d802080d937e.png?r=126687498907') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/135270/47086/5e12da8af629d802080d937e.bmp?r=126687498907') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/135270/47086/5e12da8af629d802080d937e.jpg?r=126687498907') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.css1e1ecef5d021066 {
+  font-family: 'PingFangSCM1e1ecef5d021066';
+} */
